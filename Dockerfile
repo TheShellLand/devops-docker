@@ -15,7 +15,7 @@ RUN \
     \
     # install
     && cd antsable \
-    && ./antsable.sh playbook/ssh-docker.yaml -l local \
+    && ./ansible.sh playbook/ssh-docker.yaml -l local \
     \
     # cleanup
     && rm -rf $APP \
